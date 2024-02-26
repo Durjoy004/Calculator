@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #96CDFF;
+}
+
+.mainContainer{
+    position: relative;
+    background-color: #DBBADD;
+    width: 400px;
+    height: 500px;
+    border-radius: 15px;
+    left: 35%;
+    margin-top: 40px; 
+    display: flex;   
+    flex-wrap: wrap;
+}
+#display{
+    position: absolute;
+    width: 90%;
+    height: 20%;
+    left:5%;
+    top: 6%;
+    border: none;
+    font-size: xx-large;
+    border-radius: 10px;
+    background-color: #D8E1FF;
+}
+.keys{
+    position: absolute;
+    top: 32%;
+    left: 10%;
+}
+button{
+    width: 72px;
+    height: 60px;
+    border: none;
+    margin-left: 3px;
+    margin-top: 4px;
+    border-radius: 5px;
+    font-size: x-large;
+    transition: 0.5s;
+
+}
+button:hover{
+    background-color: #69DDFF;
+}
+#equal{
+    width: 93%;
+}
+@media screen and (max-width: 425px) {
+   .mainContainer{
+    left: 1.5%;
+   }
+   
+}
+#mode{
+    width: 90px;
+    height: 25px;
+    border-radius: 6px;
+    background-color: #D8E1FF;
+    position: absolute;
+    top: 26.5%;
+    left: 10.5%;
+    color: black;
+    font-size: large;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#mode:hover{
+    background-color: #8A4FFF;
+}
+#mode_1{
+    width: 100px;
+    height: 25px;
+    border-radius: 6px;
+    background-color: #D8E1FF;
+    position: absolute;
+    top: 26.5%;
+    left: 63%;
+    color: black;
+    font-size: large;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#mode_1:hover{
+    background-color: #8A4FFF;
+}
